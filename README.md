@@ -55,11 +55,11 @@ Bubble bubble = new Bubble.Builder('activity' or 'viewgroup')
 //When you want display when touch screen, you can call the below method like:
 @Override
 public boolean onTouchEvent(MotionEvent event) {
-	if (event.getAction() == MotionEvent.ACTION_DOWN) {
-		bubble.shoot((int) event.getX(), (int) event.getY());
-	}
+    if (event.getAction() == MotionEvent.ACTION_DOWN) {
+        bubble.shoot((int) event.getX(), (int) event.getY());
+    }
 
-	return super.onTouchEvent(event);
+    return super.onTouchEvent(event);
 }
 
 //other methods
