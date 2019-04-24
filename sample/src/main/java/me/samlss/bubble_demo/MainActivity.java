@@ -42,10 +42,4 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onTouchEvent(event);
     }
-
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        mBubble.stop();
-        return super.onKeyDown(keyCode, event);
-    }
 }
