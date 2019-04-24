@@ -84,7 +84,7 @@ public class Bubble {
         }
 
         /**
-         * Set the bubble alpha [0, 1].
+         * Set the alpha of bubble, [0, 1].
          * If not specified, the default is 1.
          * */
         public Builder setAlpha(float alpha){

@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         mBubble = new Bubble.Builder(this)
                 .setAlpha(0.5f)
-                .setBubbleColor(Color.YELLOW)
+                .setBubbleColor(Color.WHITE)
                 .setDuration(3000)
                 .setInterpolator(new LinearInterpolator())
                 .setBubbleRadius(30)
