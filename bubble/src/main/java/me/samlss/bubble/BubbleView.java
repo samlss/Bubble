@@ -100,6 +100,7 @@ class BubbleView extends View {
 
     public void destroy(){
         stop();
+        mRecycler.clear();
         ((ViewGroup)getParent()).removeView(this);
     }
 
