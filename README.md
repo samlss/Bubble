@@ -52,7 +52,7 @@ Bubble bubble = new Bubble.Builder('activity' or 'viewgroup')
     .setBubbleRadius(30) //Set the radius of bubble
     .build(); //To build a bubble obj
 
-//When you want display when touch screen, you can call the below method like:
+//When you want to display the bubble when touch screen, you can call the below method like:
 @Override
 public boolean onTouchEvent(MotionEvent event) {
     if (event.getAction() == MotionEvent.ACTION_DOWN) {
