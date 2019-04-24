@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        mBubble = new Bubble.Builder((ViewGroup) findViewById(R.id.root))
+        mBubble = new Bubble.Builder(this)
                 .setAlpha(0.5f)
                 .setBubbleColor(Color.YELLOW)
                 .setDuration(3000)
