@@ -1,4 +1,4 @@
-![Head](https://github.com/samlss/Bubble/blob/master/screenshots/head.png)
+![Head](https://github.com/samlss/Bubble/blob/master/screenshots/gif.png)
 
  [![Download](https://api.bintray.com/packages/samlss/maven/bubble/images/download.svg?version=1.0.0-snapshot)](https://bintray.com/samlss/maven/bubble/1.0.0-snapshot/link) [![Api reqeust](https://img.shields.io/badge/API-11+-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=11#l11) [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/Bubble/blob/master/LICENSE)  
 
